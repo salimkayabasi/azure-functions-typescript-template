@@ -1,6 +1,6 @@
 # Mermaid
 
-Mermaid lets you represent diagrams using text and code. This simplifies maintianing complex diagrams. It is a Javascript based diagramming and charting tool that renders Markdown-inspired text
+Mermaid lets you represent diagrams using text and code. This simplifies maintaining complex diagrams. It is a Javascript based diagramming and charting tool that renders Markdown-inspired text
 definitions to create and modify diagrams dynamically. The main purpose of Mermaid is to help Documentation catch up with Development.
 
 It is an open-sourced JS based rendering tool and can be found [here](https://github.com/mermaid-js/mermaid)
@@ -13,7 +13,7 @@ documentation [page](https://mermaid-js.github.io/mermaid/#/n00b-gettingStarted)
 VSCode has several extensions where you can install and see rendered copy.
 
 Github doesn't support client-side rendering yet, and we need to have PNG files for rendered copies. To automate this, we have a Github Action based
-automation [here](../../.github/workflows/mermaid.yml).
+automation [here](.github/workflows/mermaid.yml).
 
 ## Github Action
 
