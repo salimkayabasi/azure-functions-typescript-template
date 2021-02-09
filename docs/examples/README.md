@@ -1,3 +1,3 @@
 # Drawio
 
-![DrawIO](./example.png)
+![DrawIO](./assets/example.png)
