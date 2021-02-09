@@ -1,0 +1,32 @@
+{
+  "name": "azure-functions-typescript-template",
+  "version": "1.0.0",
+  "description": "With this project setup, you can start implementing your next product without taking care of boiler plate work.",
+  "keywords": [
+    "template",
+    "javascript",
+    "typescript",
+    "package"
+  ],
+  "homepage": "https://github.com/salimkayabasi/azure-functions-typescript-template#readme",
+  "bugs": {
+    "url": "https://github.com/salimkayabasi/azure-functions-typescript-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salimkayabasi/azure-functions-typescript-template.git"
+  },
+  "license": "MIT",
+  "author": "Salim KAYABASI <salim.kayabasi@gmail.com>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "^12.19.1",
+    "npm": "^6.14.8"
+  }
+}
