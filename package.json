@@ -23,20 +23,23 @@
     "doc": "docs"
   },
   "scripts": {
-    "types": "tsc --noEmit",
+    "build": "webpack",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "npm run lint -- --fix",
-    "build": "webpack",
-    "watch": "webpack --watch --progress",
     "prestart": "npm run build",
     "start": "func start --javascript --prefix dist/",
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "npm run test && npm run test:mutation",
+    "test:mutation": "stryker run",
+    "types": "tsc --noEmit",
+    "watch": "webpack --watch --progress"
   },
-  "engines": {
-    "node": "^12.19.1",
-    "npm": "^6.14.8"
+  "dependencies": {
+    "@azure/functions": "^1.2.3"
   },
   "devDependencies": {
+    "@stryker-mutator/core": "^4.4.1",
+    "@stryker-mutator/jest-runner": "^4.4.1",
     "@tsconfig/node12": "^1.0.7",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
@@ -56,7 +59,8 @@
     "webpack": "^5.21.2",
     "webpack-cli": "^4.5.0"
   },
-  "dependencies": {
-    "@azure/functions": "^1.2.3"
+  "engines": {
+    "node": "^12.19.1",
+    "npm": "^6.14.8"
   }
 }
