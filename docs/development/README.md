@@ -10,5 +10,6 @@ Further details
 * [Node.js](node.md)
 * [Azure Functions](functions.md)
 * [Mermaid](mermaid.md)
+* [Drawio](drawio.md)
 * [Local Development](local-development.md)
 * [VSCode settings](vscode.md)
