@@ -19,4 +19,4 @@ open http://localhost:7071/api/helloworld?name=salim
 ```
 and you must see the response as ```HELLO FROM SALIM!```
 
-
+for further development details, please read these [documents](./docs/development/)
